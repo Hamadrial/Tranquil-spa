@@ -11,6 +11,7 @@ Tags: right-sidebar, responsive-layout, custom-header, custom-menu, featured-ima
 Text Domain: tranqilwp
 */
 
+
 /* ------------------------------- *\
  # MAIN STYLE
 \* ------------------------------- */
@@ -25,26 +26,24 @@ img {
   max-width: 100%;
 }
 
-.btn-default,
-#submit {
-	border: 3px solid #ecf0f1;
+.btn-default, #submit {
+  border: 3px solid #ecf0f1;
   border-radius: 5px;
   padding: 15px 30px;
-
   background-color: #8393ca;
   color: white;
 }
 
-.btn-default:hover,
-#submit:hover {
+.btn-default:hover, #submit:hover {
   background: #97689c;
 }
 
+
 /* Section divider */
+
 h2 {
   margin-top: 30px;
   margin-bottom: 20px;
-
   text-align: center;
   font-size: 2em;
 }
@@ -76,9 +75,8 @@ li {
 \* ------------------------------- */
 
 .navbar {
-	border: none;
-	margin-bottom: 0;
-
+  border: none;
+  margin-bottom: 0;
   background: #97689c;
 }
 
@@ -108,10 +106,13 @@ li {
   position: absolute;
   top: 0;
   bottom: 0;
-  font-size: 0; /* remove the gap between inline-block elements, font-size is... zero width.*/
+  font-size: 0;
+  /* remove the gap between inline-block elements, font-size is... zero width.*/
 }
 
+
 /* set a fake element full height, so we can vertically align middle */
+
 .feature-text:before {
   content: ' ';
   display: inline-block;
@@ -121,12 +122,11 @@ li {
 
 .feature-text p {
   display: inline-block;
-	width: 100%;
-	border-radius: 10px;
-	padding: 3%;
-
+  width: 100%;
+  border-radius: 10px;
+  padding: 3%;
   vertical-align: middle;
-  text-align:center;
+  text-align: center;
   background: rgba(74, 82, 95, 0.2);
   color: white;
   font-size: 48px;
@@ -139,8 +139,7 @@ li {
 \* ------------------------------- */
 
 .welcome {
-	padding-bottom: 30px;
-
+  padding-bottom: 30px;
   background: white;
   /* text align required to center divider img */
   text-align: center;
@@ -155,7 +154,7 @@ li {
 }
 
 .title {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .facilities {
@@ -181,26 +180,24 @@ li {
 }
 
 .offer {
-	/* set to relative so absolute price circles center on this rather than the col-sm-4 outer container */
+  /* set to relative so absolute price circles center on this rather than the col-sm-4 outer container */
   position: relative;
-	min-height: 350px;
-	/* 60px min margin stops the price circles from overlapping above div when on stacked mobile view. */
+  min-height: 350px;
+  /* 60px min margin stops the price circles from overlapping above div when on stacked mobile view. */
   margin-bottom: 60px;
   padding: 40px 10px;
-
   background: #4a525f;
 }
 
 .offer .offer-price {
-	position: absolute;
-	border-radius: 100%;
-	display: block;
+  position: absolute;
+  border-radius: 100%;
+  display: block;
   height: 100px;
   width: 100px;
-	top: -50px;
-	left: -50px;
+  top: -50px;
+  left: -50px;
   margin-left: 50%;
-
   background: #8abbb1;
   text-align: center;
   line-height: 100px;
@@ -221,6 +218,7 @@ li {
   margin-bottom: 70px;
 }
 
+
 /* ------------------------------- *\
  # SHOP ONLINE SECTION
 \* ------------------------------- */
@@ -232,8 +230,8 @@ li {
 }
 
 .shop-online .btn-default {
-	border: 0;
-	border-radius: 0;
+  border: 0;
+  border-radius: 0;
   margin-top: 60px;
 }
 
@@ -247,8 +245,7 @@ li {
   background: #97689c;
 }
 
-.page-footer li,
-.footer-address {
+.page-footer li, .footer-address {
   line-height: 2em;
 }
 
@@ -257,13 +254,12 @@ li {
 }
 
 .page-footer ul {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .copy {
-	height: 60px;
-	margin-top: 30px;
-
+  height: 60px;
+  margin-top: 30px;
   text-align: center;
   line-height: 60px;
 }
@@ -274,9 +270,8 @@ li {
 \* ------------------------------- */
 
 .blog-post-title {
-	height: 80px;
-	margin-bottom: 30px;
-
+  height: 80px;
+  margin-bottom: 30px;
   background: url('images/divider-purple.png') center no-repeat;
   background-size: 300px 40px;
   /* center on x 35px on y*/
@@ -314,7 +309,7 @@ li {
 
 .blog-post-title a {
   color: #494646;
-	text-decoration: none;
+  text-decoration: none;
 }
 
 
@@ -349,47 +344,48 @@ li {
 .comments-area {
   border: 1px solid #494646;
   border-radius: 10px;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
   padding: 20px;
 }
 
 .comment-body {
-	border-radius: 10px;
+  border-radius: 10px;
   margin: 30px 0;
-	padding: 16px;
-
+  padding: 16px;
   background: #eee;
 }
 
 .comment-metadata {
-	margin: 10px auto;
+  margin: 10px auto;
 }
 
 .comments-title {
-	height: 80px;
-	margin-bottom: 30px;
-
+  height: 80px;
+  margin-bottom: 30px;
   background: url('images/divider-purple.png') center no-repeat;
   background-size: 300px 40px;
   /* center on x 35px on y*/
   background-position: center 35px;
-
 }
 
+
 /* seperate the comments from the leave a reply section */
+
 .comment-list {
-	border-bottom: 1px dashed;
+  border-bottom: 1px dashed;
   margin-bottom: 60px;
-	margin-left: 0;
-	padding-right: 50px;
-	padding-left: 50px;
+  margin-left: 0;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .comment-form-comment {
   margin-top: 20px;
 }
 
+
 /* make comment text area full width */
+
 #comment {
   width: 100%;
   margin-bottom: 16px;
@@ -397,9 +393,8 @@ li {
 
 .form-submit .submit {
   margin-top: 20px;
-	width: 100%;
-
-	font-size: 12px;
+  width: 100%;
+  font-size: 12px;
 }
 
 
@@ -408,16 +403,17 @@ li {
 \* ------------------------------- */
 
 .sidebar-module .search-field {
-  margin: 10px 0 ;
+  margin: 10px 0;
   width: 100%;
 }
 
+
 /* Search button */
+
 .sidebar-module .search-submit {
-	border: 3px solid #ecf0f1;
+  border: 3px solid #ecf0f1;
   border-radius: 5px;
   padding: 5px 20px;
-
   background-color: #8393ca;
   color: white;
 }
@@ -433,14 +429,12 @@ li {
 
 .contact {
   padding-bottom: 30px;
-
   /* text align required to center divider img */
   text-align: center;
 }
 
 .address {
-	margin-top: 30px;
-
+  margin-top: 30px;
   text-align: left;
   font-size: 1.2em;
   line-height: 2em;
@@ -455,41 +449,38 @@ li {
 }
 
 .contact .google-map {
-	max-width: 100%;
+  max-width: 100%;
   margin-top: 30px;
 }
 
 .message-area {
   margin-top: 60px;
-	text-align: left;
+  text-align: left;
 }
 
 .message-area .input-form {
-	width: 100%;
-	border: 0;
-	border-bottom: 1px solid #000;
-
-	background-color: #f5f5f5;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #000;
+  background-color: #f5f5f5;
 }
 
-.message-area .input-form:focus,
-.message-area .textarea-form:focus {
-	outline: 0;
+.message-area .input-form:focus, .message-area .textarea-form:focus {
+  outline: 0;
 }
 
 .message-area .textarea-form {
   width: 100%;
-	background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .message-area .btn-submit {
-	border: 0;
-	border-radius: 0;
-	margin-bottom: 2em;
-
-	font-size: 16px;
-	background-color: #97689c;
-	color: #fff;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 2em;
+  font-size: 16px;
+  background-color: #97689c;
+  color: #fff;
 }
 
 
@@ -503,20 +494,17 @@ li {
 }
 
 .widget {
-	margin: 30px 0;
+  margin: 30px 0;
   padding: 20px;
   min-height: 300px;
-
   border: 1px solid #494646;
   border-radius: 10px;
 }
 
+
 /* === WP RECCOMMENDED FOR USE WITH CONTENT-WIDTH IN FUNCTIONS.PHP ===*/
-.size-auto,
-.size-full,
-.size-large,
-.size-medium,
-.size-thumbnail {
+
+.size-auto, .size-full, .size-large, .size-medium, .size-thumbnail {
   max-width: 100%;
   height: auto;
 }
@@ -527,7 +515,7 @@ li {
 \* ------------------------------- */
 
 .no-margin-bottom {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
@@ -535,28 +523,23 @@ li {
  # MOBIL STYLING
 \* ------------------------------- */
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   /* center drop down links */
   li a {
     text-align: center;
   }
-
   /* reduce font size for feature text */
   .feature-text p {
     font-size: 32px;
     line-height: 40px;
   }
-
   /* font size for all section headings */
   h2 {
     font-size: 1.6em;
   }
-
-  .page-footer,
-	.address {
+  .page-footer, .address {
     text-align: center;
   }
-
   .page-footer ul, address {
     border-bottom: 1px dotted;
   }
