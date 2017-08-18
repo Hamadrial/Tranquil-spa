@@ -1,8 +1,8 @@
 /*
 Theme Name: Tranquil WP
-Theme URI: http://corewebtraining.com
-Author: Chris Dixon
-Author URI: http://corewebtraining.com
+Theme URI:
+Author: Kiet Nguyen
+Author URI:
 Description: Fully responsive WordPress Spa theme built using Bootstrap 3.
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -42,7 +42,7 @@ img {
 
 /* Section divider */
 h2 {
-	margin-top: 30px;
+  margin-top: 30px;
   margin-bottom: 20px;
 
   text-align: center;
@@ -117,7 +117,6 @@ li {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-
 }
 
 .feature-text p {
