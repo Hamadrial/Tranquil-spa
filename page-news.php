@@ -21,17 +21,22 @@ get_header(); ?>
 
           <!-- Date function: Use 'echo get_the_date()' instead of 'the_date()'. 'the_date()' only shows the date for the first post of the day.  -->
           <p class="blog-post-meta"><?php echo get_the_date('F j, Y'); ?>
-              by <a href="#"><?php the_author(); ?></a></p>
+            by <a href="#"><?php the_author(); ?></a>
+          </p>
 
           <?php the_post_thumbnail(); ?>
+
           <?php the_excerpt() ?>
+
           <a href="<?php echo get_permalink(); ?>">
-              <?php _e( 'Read More...', 'tranquilwp' ); ?>
+            <?php _e( 'Read More...', 'tranquilwp' ); ?>
           </a>
-        </div><!-- /.blog-post -->
+        </div> <!-- /.blog-post -->
 
         <?php endwhile; else : ?>
-          <p><?php _e( 'Sorry, no posts matched your criteria.', 'tranquilwp' ); ?></p>
+          <p>
+            <?php _e( 'Sorry, no posts matched your criteria.', 'tranquilwp' ); ?>
+          </p>
         <?php endif; ?>
 
       <!-- Add the pager functions here. -->
@@ -41,14 +46,14 @@ get_header(); ?>
           <li><?php previous_posts_link(__('Newer Posts', 'tranquilwp')); ?></li>
         </ul>
       </nav>
-    </div><!-- /.blog-main -->
+    </div> <!-- /.blog-main -->
 
     <!-- SIDEBAR -->
     <div class="col-sm-12 col-md-3 col-md-offset-1 blog-sidebar">
       <?php get_sidebar(); ?>
-    </div><!-- /.blog-sidebar -->
-  </div><!-- /.row -->
+    </div> <!-- /.blog-sidebar -->
+  </div> <!-- /.row -->
 
-</div><!-- /.container -->
+</div> <!-- /.container -->
 
 <?php get_footer(); ?>

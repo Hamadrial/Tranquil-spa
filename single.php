@@ -36,7 +36,7 @@
 
             <div class="thumbnail-img">
               <?php the_post_thumbnail(); ?>
-            </div>
+            </div> <!-- /.thumbnail-img -->
 
             <article>
               <?php the_content() ?>
@@ -45,8 +45,8 @@
             <!-- wp_link_pages is responsible for the pagination of long posts, when combined with nextpage comment in the post -->
             <div class="pagination">
               <?php wp_link_pages(); ?>
-            </div>
-          </div><!-- /.blog-post -->
+            </div> <!-- /.pagination -->
+          </div> <!-- /.blog-post -->
 
           <!-- Add the pager functions here. -->
           <nav>
@@ -59,11 +59,13 @@
           <!-- Load up comments template -->
           <div class="comment">
             <?php comments_template(); ?>
-          </div>
+          </div> <!-- /.comment -->
         <?php endwhile; ?>
 
         <?php else : ?>
-          <p><?php _e('Sorry, no posts matched your criteria.', 'tranquilwp'); ?></p>
+          <p>
+            <?php _e('Sorry, no posts matched your criteria.', 'tranquilwp'); ?>
+          </p>
         <?php endif; ?>
       </div> <!-- /.blog-main -->
     </div> <!-- /.col -->
@@ -71,9 +73,9 @@
     <!-- SIDEBAR -->
 		<aside class="col-sm-12 col-md-3 col-md-offset-1 blog-sidebar">
 			<?php get_sidebar(); ?>
-		</aside><!-- /.blog-sidebar -->
-  </div><!-- /.row -->
+		</aside> <!-- /.blog-sidebar -->
+  </div> <!-- /.row -->
 
-</div><!-- /.container -->
+</div> <!-- /.container -->
 
 <?php get_footer(); ?>

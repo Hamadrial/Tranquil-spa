@@ -18,7 +18,9 @@
         <?php endwhile; ?>
 
         <?php else : ?>
-          <p><?php _e( 'Sorry, no pages matched your criteria.', 'tranquil-wp' ); ?></p>
+          <p>
+            <?php _e( 'Sorry, no pages matched your criteria.', 'tranquil-wp' ); ?>
+          </p>
         <?php endif; ?>
       </div> <!-- /.blog-main -->
     </div> <!-- /.col -->
@@ -26,9 +28,9 @@
     <!-- SIDEBAR -->
     <aside class="col-sm-3 col-sm-offset-1 blog-sidebar">
       <?php get_sidebar(); ?>
-    </aside><!-- /.blog-sidebar -->
-  </div><!-- /.row -->
+    </aside> <!-- /.blog-sidebar -->
+  </div> <!-- /.row -->
 
-</div><!-- /.container -->
+</div> <!-- /.container -->
 
 <?php get_footer(); ?>

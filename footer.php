@@ -1,4 +1,3 @@
-
 	<footer class="page-footer">
 
 		<div class="container">
@@ -12,8 +11,8 @@
 
 						<img src="<?php echo esc_url( get_template_directory_uri() ) ; ?>/images/divider-silver.png" alt="divider">
 					</div>
-				</div><!-- /.col -->
-			</div><!-- /.row -->
+				</div> <!-- /.col -->
+			</div> <!-- /.row -->
 
 			<div class="row">
 				<div class="col-sm-3">
@@ -23,7 +22,7 @@
 						<p class="no-margin-bottom">Address line 2</p>
 						<p class="no-margin-bottom">Address line 3</p>
 					</address>
-				</div><!-- /.col -->
+				</div> <!-- /.col -->
 
 				<div class="col-sm-2">
 					<?php
@@ -35,7 +34,7 @@
 							'walker'            => new wp_bootstrap_navwalker())
 						);
 					?>
-				</div>
+				</div> <!-- /.col -->
 
 				<div class="col-sm-2">
 					<?php
@@ -47,7 +46,7 @@
 							'walker'            => new wp_bootstrap_navwalker())
 						);
 					?>
-				</div>
+				</div> <!-- /.col -->
 
 				<div class="col-sm-2">
 					<?php
@@ -59,7 +58,7 @@
 							'walker'            => new wp_bootstrap_navwalker())
 						);
 					?>
-				</div>
+				</div> <!-- /.col -->
 
 				<div class="col-sm-3">
 					<div class="social-media">
@@ -71,11 +70,11 @@
 						<i class="fa fa-pinterest-p fa-lg"></i>
 						<i class="fa fa-youtube fa-lg"></i>
 					</div>
-				</div><!-- /.col -->
-			</div><!-- /.row -->
+				</div> <!-- /.col -->
+			</div> <!-- /.row -->
 
 			<p class="copy">&copy; <?php echo date('Y'); ?> <?php _e( 'Tranquil Spa', 'tranquilwp' ); ?></p>
-		</div><!-- /.container -->
+		</div> <!-- /.container -->
 	</footer>
 
 	<?php wp_footer(); ?>

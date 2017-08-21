@@ -15,8 +15,8 @@ get_header(); ?>
         <h1 class="title"><?php the_title(); ?></h1>
 
         <img src="<?php echo esc_url( get_template_directory_uri() ) ; ?>/images/divider-purple.png" alt="divider">
-      </div><!-- /.col -->
-    </div><!-- /.row -->
+      </div> <!-- /.col -->
+    </div> <!-- /.row -->
 
     <article class="about-us">
       <?php the_field( 'about_us' ) ?>

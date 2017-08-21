@@ -40,7 +40,7 @@
 					<div class="pagination">
 						<?php wp_link_pages(); ?>
 					</div>
-				</div><!-- /.blog-post -->
+				</div> <!-- /.blog-post -->
 
 				<!-- Add the pager functions here. -->
 				<nav>
@@ -53,20 +53,22 @@
 				<!-- Load up comments template -->
 				<div class="comment">
 					<?php comments_template(); ?>
-				</div>
+				</div> <!-- /.comment -->
 			<?php endwhile; ?>
 
 			<?php else : ?>
-				<p><?php _e('Sorry, no posts matched your criteria.', 'tranquilwp'); ?></p>
+				<p>
+					<?php _e('Sorry, no posts matched your criteria.', 'tranquilwp'); ?>
+				</p>
 			<?php endif; ?>
-		</div><!-- /.blog-main -->
+		</div> <!-- /.blog-main -->
 
 		<!-- SIDEBAR -->
 		<aside class="col-sm-12 col-md-3 col-md-offset-1 blog-sidebar">
 			<?php get_sidebar(); ?>
-		</aside><!-- /.blog-sidebar -->
-	</div><!-- /.row -->
+		</aside> <!-- /.blog-sidebar -->
+	</div> <!-- /.row -->
 
-</div><!-- /.container -->
+</div> <!-- /.container -->
 
 <?php get_footer(); ?>

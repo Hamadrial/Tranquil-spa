@@ -46,7 +46,9 @@
 			<?php endwhile; ?>
 
 			<?php else : ?>
-				<p><?php _e( 'Sorry, no posts matched your criteria.', 'tranquilwp' ); ?></p>
+				<p>
+					<?php _e( 'Sorry, no posts matched your criteria.', 'tranquilwp' ); ?>
+				</p>
 			<?php endif; ?>
 
 			<!-- Add the pager functions here. -->
@@ -56,14 +58,14 @@
 					<li><?php previous_posts_link(__('Newer Posts', 'tranquilwp')); ?></li>
 				</ul>
 			</nav>
-		</div><!-- /.blog-main -->
+		</div> <!-- /.blog-main -->
 
 		<!-- SIDEBAR -->
 		<aside class="col-sm-12 col-md-3 col-md-offset-1 blog-sidebar">
 			<?php get_sidebar(); ?>
-		</aside><!-- /.blog-sidebar -->
-	</div><!-- /.row -->
+		</aside> <!-- /.blog-sidebar -->
+	</div> <!-- /.row -->
 
-</div><!-- /.container -->
+</div> <!-- /.container -->
 
 <?php get_footer(); ?>
