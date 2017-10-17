@@ -17,7 +17,7 @@ There are two methods for getting started with this repo.
 
 * Or click "Clone or download" button and download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory.
 
-* Open Local Flywheel > import site > then import the folder you just clone or download.
+* Open Local Flywheel > File > import site > then import the folder you just clone or download.
 
 * Run site and open in web browser.
 
