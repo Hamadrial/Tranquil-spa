@@ -12,7 +12,7 @@ There are two methods for getting started with this repo.
 
 * You can use git to clone this repo:
 ```
-> git clone https://github.com/Hamadrial/wordpress.git
+> git clone https://github.com/Hamadrial/Tranquil-spa.git
 ```
 
 * Or click "Clone or download" button and download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory.
